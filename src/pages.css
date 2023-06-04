@@ -1,0 +1,19 @@
+.image-page {
+    padding-left: 7%;
+    padding-right: 6%;
+}
+
+.section-page {
+    background-color: #232323;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+  }
+  
+  .buttons button {
+    margin: 0 5px;
+  }
+  

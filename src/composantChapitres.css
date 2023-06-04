@@ -1,0 +1,134 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+}
+
+.detail-info {
+  min-height: 300px;
+    margin-top: -270px;
+    position: relative;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+  
+
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  border-bottom: 0px;
+}
+
+.container-description {
+  width: 1000px;
+  margin: 0 auto;
+  border-bottom: 0;
+}
+
+.detail-info-cover {
+  position: absolute;
+  top: -50px;
+  left: 40px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px #888;
+  font-size: 0;
+}
+
+.detail-info-cover-img {
+  width: 220px;
+  height: 334.4px;
+}
+
+.detail-info-right {
+  padding-left: 285px;
+  padding-right: 50px;
+}
+
+.detail-info-right-title {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.detail-info-right-title-font {
+  font-size: 25px;
+  color: #222222;
+  letter-spacing: 0;
+}
+
+.box {
+  margin-top: 20px;
+  text-transform: capitalize;
+  text-underline-offset: auto;
+  text-size-adjust: auto;
+  text-align: center;
+
+}
+
+.detail-info-rating {
+  font-size: 20px;
+  color: black;
+  margin-right: 70px;
+  padding-left: 280px;
+  padding-top: 30px;
+}
+
+.detail-main {
+  padding: 0 30px 0 40px;
+}
+
+.chapter-title {
+  margin-top: 70px ;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: left;
+  padding-left: 4%;
+  border-bottom: 1px solid #D8D8D8;
+  color: #fca23a;
+}
+
+.button {
+  margin-top: 40px;
+  width: 100%;
+  text-align: left;
+  display: -webkit-box; /* Required for Safari */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; /* Limits the button to one line of text */
+  overflow: hidden; /* Hides any content that overflows the button element */
+}
+
+.liste-chapitres {
+  padding: 0 30px 0 60px;
+}
+
+
+.btn{
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  outline: none;
+  color: red;
+  padding-left: 80px;
+  padding-top: 31px;
+  margin-bottom: 15px;
+
+}
+.btn1{
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  outline: none;
+  color: grey;
+  padding-left: 80px;
+  padding-top: 31px;
+  margin-bottom: 15px;
+
+}
+
+.btn i:hover{
+  cursor: pointer;
+}
